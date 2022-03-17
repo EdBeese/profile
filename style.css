@@ -3,7 +3,7 @@
 @media (max-width: 1800px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 800px;
+    width: 801px;
   }
 }
 
