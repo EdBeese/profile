@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+@media (max-width: 1800px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  /* text-align: center; */
+  /* margin: 0; */
+  font-family: "Merriweather", serif;
+  color: #8e9194;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  /* margin: 50px auto 0 auto; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  color: #1C658C;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #398AB9;
+}
+
+a:hover {
+  color: #94B5C0;
+}
+
+.container {
+  margin: auto;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+.about-me {
+  margin: 50px auto;
+  width: 50%;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.justify-space-txt {
+  text-align: justify;
+  line-height: 2;
+  /* padding: 0px, 100; */
+}
+
+.img-200px {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.posit-img-up {
+  position: relative;
+  bottom: 20px;
+}
+
+.img-icon-size-marg {
+  width: 70px;
+}
+
+.float-img-left {
+  float: left;
+}
+
+.float-img-right {
+  float: right;
+  margin-right: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-horiz-align {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+.align-txt-right {
+  text-align: right;
+}
